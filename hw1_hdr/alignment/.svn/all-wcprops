@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/HDRImaging/!svn/ver/22/alignment
+END
+get_shifted_imgs.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/HDRImaging/!svn/ver/22/alignment/get_shifted_imgs.m
+END
+imgalign.m
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/HDRImaging/!svn/ver/15/alignment/imgalign.m
+END
+bitmapshift.m
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/HDRImaging/!svn/ver/23/alignment/bitmapshift.m
+END
+getbitmap.m
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/HDRImaging/!svn/ver/15/alignment/getbitmap.m
+END

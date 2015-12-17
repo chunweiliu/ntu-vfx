@@ -1,0 +1,22 @@
+VFXproj1:
+
+HDR: Debevec's method
+1. Choose some pixels which lies on flat area in  gradient domain. 
+2. Recover curve of each channel by using SVD to solve linear constraint
+3. Interpolate pixel value by the recovering curves and origin series of images.
+
+ToneMapping: Gradient Domain
+1. Compute log image
+2. According to parameters alpha (weighting), and beta (attenuation level), Find Attenuation map
+3. Apply Attenuation on corresponding gradient
+4. Solve Poisson equation to find out image after integration
+5. Recover color infomation with paramter s
+
+	Photomatix	Gradient Domain
+shot1	(100, 100, -7)	(0.1, 0.9, 0.7)
+shot5	(89, 100, 8)	(0.1, 0.82, 0.7)
+photo2	(100, 100, 0)	(0.1, 0.91, 0.7)
+
+
+* Photomatix 	(Strength, Saturation, Luminance)
+* Gradient Domain 	(alpha, beta, s)
